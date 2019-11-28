@@ -212,7 +212,8 @@ var CURRENCIES = [{
 },{
     name: 'snowgem',
     symbol: 'xsg',
-    addressTypes: {prod: ['1c', '28'], testnet: ['1D', '25']},
+    expectedLength: 26,
+    addressTypes: {prod: ['1c28','1c2d'], testnet: ['1d25', '1cba']},
     validator: BTCValidator
 }];
 
