@@ -209,6 +209,11 @@ var CURRENCIES = [{
     name: 'raiblocks',
     symbol: 'xrb',
     validator: NANOValidator,
+},{
+    name: 'snowgem',
+    symbol: 'xsg',
+    addressTypes: {prod: ['1c', '28'], testnet: ['1D', '25']},
+    validator: BTCValidator
 }];
 
 
